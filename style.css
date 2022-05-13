@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: url(images/pattern.jpg);
+  margin:auto;
+
+}
+.main-header {
+  background-image: url(images/pattern.jpg);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 1px;
+}
+.header-name {
+  background-color: #000000;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+h1, h2, h3, p, ul, a, li, h4, button {
+  font-family:"American Typewriter",serif;
+}
+h1 {
+  color:#ffffff;
+  font-size: 50px;
+  text-align:center;
+}
+h2, h4 {
+  color:#ffffff;
+  font-size: 20px;
+  text-align:center;
+}
+p {
+  text-align:left;
+}
+.text-box {
+  background-color: black;
+  width: 600px;
+  background: #ffffff;
+  padding: 20px;
+  border: 7px solid black;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  margin-bottom:20px;
+
+}
+img {
+  display: block;
+  width: 400px;
+  height: 400px;
+  border: 7px solid black;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+h4 {
+  color:#ffffff;
+}
+footer { background-color: black;
+  margin: auto;
+  padding: 20px;
+}
+button {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 6px }
+
+a:link    { color: darkseagreen;  }
+a:visited { color: pink;   }
+a:hover   { color: orange; }
+a:active  { color: cyan;  }
